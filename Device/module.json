@@ -1,0 +1,18 @@
+{
+    "id": "{3C588DDA-3D42-C1E5-402E-3BFF077468D6}",
+    "name": "DaikinOnectaDevice",
+    "type": 3,
+    "vendor": "DAIKIN",
+    "aliases": [
+        "DAIKIN ONECTA Device"
+    ],
+    "parentRequirements": [
+        "{8C90E068-C3A8-F683-8FD7-29943EA18004}"
+    ],
+    "childRequirements": [],
+    "implemented": [
+        "{595DAED8-AD0C-0413-1628-AEBC6D790EE1}"
+    ],
+    "prefix": "DODEV",
+    "url": "https://github.com/ubittner/SymconDaikinOnecta"
+}

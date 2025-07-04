@@ -1,0 +1,18 @@
+{
+    "id": "{6627F277-44ED-F99C-DC20-0D15465153AF}",
+    "name": "DaikinOnectaCloudAPI",
+    "type": 2,
+    "vendor": "DAIKIN",
+    "aliases": [
+        "DAIKIN ONECTA Cloud API"
+    ],
+    "parentRequirements": [],
+    "childRequirements": [
+        "{595DAED8-AD0C-0413-1628-AEBC6D790EE1}"
+    ],
+    "implemented": [
+        "{8C90E068-C3A8-F683-8FD7-29943EA18004}"
+    ],
+    "prefix": "DOCLOUD",
+    "url": "https://github.com/ubittner/SymconDaikinOnecta"
+}

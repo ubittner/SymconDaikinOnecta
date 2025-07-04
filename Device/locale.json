@@ -1,0 +1,33 @@
+{
+    "translations": {
+        "de": {
+            "DAIKIN ONECTA Device": "DAIKIN ONECTA Gerät",
+            "Active": "Aktiv",
+            "Device ID (mandatory)": "Geräte-ID (erforderlich)",
+            "Device model (optional)": "Geräte-Modell (optional)",
+            "Model info (optional)": "Modell-Info (optional)",
+            "Serial number (optional)": "Seriennummer (optional)",
+            "Status update": "Statusaktualisierung",
+            "seconds": "Sekunden",
+            "Update status": "Status aktualisieren",
+            "Developer area": "Entwicklerbereich",
+            "Show management points": "Datenpunkte anzeigen",
+            "DAIKIN ONECTA Device will be created": "DAIKIN ONECTA Device wird erstellt",
+            "DAIKIN ONECTA Device is active": "DAIKIN ONECTA Device ist aktiv",
+            "DAIKIN ONECTA Device will be deleted": "DAIKIN ONECTA Device wird gelöscht",
+            "DAIKIN ONECTA Device is inactive": "DAIKIN ONECTA Device ist inaktiv",
+            "An error has occurred, for further information see messages, log file or debug": "Es ist Fehler aufgetreten, weitere Informationen unter Meldungen, im Log oder Debug",
+            "Device ID is missing": "Geräte ID fehlt",
+            "Power": "An/Aus",
+            "Temperature": "Temperatur",
+            "Device mode": "Gerätemodus",
+            "Cool": "Kühlen",
+            "Heat": "Heizen",
+            "Dry": "Trocknen",
+            "Fan": "Ventilator",
+            "Room temperature": "Raumtemperatur",
+            "Outdoor temperature": "Außentemperatur",
+            "No management points found!": "Keine Datenpunkte gefunden!"
+        }
+    }
+}

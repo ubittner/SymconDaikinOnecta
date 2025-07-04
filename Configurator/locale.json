@@ -1,0 +1,12 @@
+{
+    "translations": {
+        "de": {
+            "DAIKIN ONECTA Configurator": "DAIKIN ONECTA Konfigurator",
+            "Device ID": "Geräte-ID",
+            "Device model": "Geräte-Modell",
+            "Model info": "Modell-Info",
+            "Serial number": "Seriennummer",
+            "DAIKIN ONECTA Device": "DAIKIN ONECTA Gerät"
+        }
+    }
+}

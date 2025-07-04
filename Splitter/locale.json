@@ -1,0 +1,23 @@
+{
+    "translations": {
+        "de": {
+            "Active": "Aktiv",
+            "Timeout": "",
+            "milliseconds": "Millisekunden",
+            "Register": "Registrieren",
+            "Developer area": "Entwicklerbereich",
+            "DAIKIN ONECTA Cloud API will be created": "DAIKIN ONECTA Cloud API wird erstellt",
+            "DAIKIN ONECTA Cloud API is active": "DAIKIN ONECTA Cloud API ist aktiv",
+            "DAIKIN ONECTA Cloud API will be deleted": "DAIKIN ONECTA Cloud API wird gelöscht",
+            "DAIKIN ONECTA Cloud API is inactive": "DAIKIN ONECTA Cloud API ist inaktiv",
+            "An error has occurred, for further information see messages, log file or debug": "Es ist Fehler aufgetreten, weitere Informationen unter Meldungen, im Log oder Debug",
+            "Client ID is missing": "Client ID fehlt",
+            "Client Secret is missing": "Client Secret fehlt",
+            "Scope is missing": "Scope fehlt",
+            "Please register": "Bitte registrieren",
+            "not available": "nicht vorhanden",
+            "Valid until": "Gültig bis",
+            "Registration successful!": "Registrierung erfolgreich!"
+        }
+    }
+}

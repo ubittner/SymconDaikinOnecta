@@ -1,0 +1,18 @@
+{
+    "id": "{CFEBAB18-77F2-4100-BDB2-88B076E80570}",
+    "name": "DaikinOnectaConfigurator",
+    "type": 4,
+    "vendor": "DAIKIN",
+    "aliases": [
+        "DAIKIN ONECTA Configurator"
+    ],
+    "parentRequirements": [
+        "{8C90E068-C3A8-F683-8FD7-29943EA18004}"
+    ],
+    "childRequirements": [],
+    "implemented": [
+        "{595DAED8-AD0C-0413-1628-AEBC6D790EE1}"
+    ],
+    "prefix": "DOCONF",
+    "url": "https://github.com/ubittner/SymconDaikinOnecta"
+}
