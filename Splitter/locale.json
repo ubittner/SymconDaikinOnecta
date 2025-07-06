@@ -2,6 +2,7 @@
     "translations": {
         "de": {
             "Active": "Aktiv",
+            "Log tokens": "Token protokollieren",
             "Timeout": "",
             "milliseconds": "Millisekunden",
             "Register": "Registrieren",

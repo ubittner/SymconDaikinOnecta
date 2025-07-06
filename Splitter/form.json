@@ -34,6 +34,11 @@
             "width": "600px"
         },
         {
+            "type": "CheckBox",
+            "name": "LogTokens",
+            "caption": "Log tokens"
+        },
+        {
             "type": "ValidationTextBox",
             "name": "Scope",
             "caption": "Scope",

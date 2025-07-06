@@ -34,6 +34,7 @@ class DaikinOnectaCloudAPI extends IPSModule
         $this->RegisterPropertyBoolean('Active', true);
         $this->RegisterPropertyString('ClientID', '');
         $this->RegisterPropertyString('ClientSecret', '');
+        $this->RegisterPropertyBoolean('LogTokens', false);
         $this->RegisterPropertyString('Scope', 'openid onecta:basic.integration');
         $this->RegisterPropertyInteger('Timeout', 5000);
 

@@ -148,20 +148,23 @@ trait webOAuth
             // Access token
             $this->WriteAttributeString('AccessToken', $responseData['access_token']);
             $this->SendDebug(__FUNCTION__, 'Access Token: ' . $responseData['access_token'], 0);
-            $this->LogMessage('Access Token: ' . $responseData['access_token'], KL_NOTIFY);
             $this->UpdateFormField('AccessToken', 'caption', 'Access Token: ' . substr($responseData['access_token'], 0, 20) . '.....');
             // Expires in, valid until
             $expires = time() + $responseData['expires_in'];
             $this->WriteAttributeInteger('AccessTokenValidUntil', $expires);
             $date = date('d.m.y H:i:s', $expires);
             $this->SendDebug(__FUNCTION__, 'Access Token valid until: ' . $date, 0);
-            $this->LogMessage('Access Token valid until: ' . $date, KL_NOTIFY);
             $this->UpdateFormField('AccessTokenValidUntil', 'caption', $this->Translate('Valid until') . ': ' . $date);
             // Refresh token
             $this->WriteAttributeString('RefreshToken', $responseData['refresh_token']);
             $this->SendDebug(__FUNCTION__, 'Refresh Token: ' . $responseData['refresh_token'], 0);
-            $this->LogMessage('Refresh Token: ' . $responseData['refresh_token'], KL_NOTIFY);
             $this->UpdateFormField('RefreshToken', 'caption', 'Refresh Token: ' . substr($responseData['refresh_token'], 0, 20) . '.....');
+            // Log tokens
+            if ($this->ReadPropertyBoolean('LogTokens')) {
+                $this->LogMessage('Access Token: ' . $responseData['access_token'], KL_NOTIFY);
+                $this->LogMessage('Access Token valid until: ' . $date, KL_NOTIFY);
+                $this->LogMessage('Refresh Token: ' . $responseData['refresh_token'], KL_NOTIFY);
+            }
         } else {
             $result = false;
             $this->SendDebug(__FUNCTION__, 'Token exchange failed!', 0);
