@@ -1,12 +1,12 @@
 {
     "id": "{7439E825-F2B1-FE03-A087-FD46E147847F}",
-    "name": "SymconDaikinOnecta",
+    "name": "DaikinOnecta",
     "author": "Ulrich BIttner",
     "url": "https://github.com/ubittner/SymconDaikinOnecta",
     "compatibility": {
         "version": "8.0"
     },
     "version": "1.0",
-    "build": 1,
-    "date": 1751602434
+    "build": 2,
+    "date": 1751787415
 }
